@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/sym_layout"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.8"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/sym_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center_vertical"
+                android:text="Sym"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="18dp" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:textColor="#A7A5A5"
+                    android:textSize="14dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="High: "
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/txt_high"
+                    android:textColor="#A7A5A5"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="0"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:textColor="#A7A5A5"
+                    android:textSize="14dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Low: "
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/txt_low"
+                    android:textColor="#A7A5A5"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="0"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:gravity="right"
+
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="right|center_vertical"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/sym_price"
+                    android:text="$111.00"
+                    android:textColor="#000"
+                    android:textSize="18dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="70dp"
+            android:paddingRight="10dp"
+            android:orientation="vertical"
+            android:gravity="center_vertical|right"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="13dp"
+                android:id="@+id/txt_change_in_price"
+                android:textStyle="bold"
+                android:text="$0.00"
+
+                android:gravity="right"
+                android:textColor="#fff"
+                android:padding="5dp"
+                android:background="@drawable/round_edge_green"
+                android:fontFamily="sans-serif-condensed"
+                android:paddingRight="0dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

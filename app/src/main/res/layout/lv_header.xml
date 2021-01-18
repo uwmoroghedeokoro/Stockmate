@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*"
+        >
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <TextView
+                android:layout_column="0"
+                android:padding="10sp"
+                android:gravity="left"
+                android:layout_span="2"
+                android:text="Date"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="11dp"
+                android:background="#5B9DFD"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:padding="10sp"
+                android:gravity="left"
+                android:text="Qty"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="11dp"
+                android:background="#5B9DFD"
+                >
+            </TextView>
+            <TextView
+                android:layout_column="1"
+                android:padding="10sp"
+                android:gravity="left"
+                android:text="Cost"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="11dp"
+                android:background="#5B9DFD"
+                >
+
+            </TextView>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="10sp"
+                android:gravity="left"
+                android:text=""
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="11dp"
+                android:background="#5B9DFD"
+                >
+
+            </TextView>
+        </TableRow>
+
+
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>

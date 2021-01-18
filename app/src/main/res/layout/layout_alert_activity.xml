@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".live_stock_table">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/lv"
+        android:background="#fff"
+        android:layout_height="match_parent"></ListView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:backgroundTint="#C61838"
+        android:tint="#fff"
+        android:layout_gravity="bottom|center"
+        app:fabSize="normal"
+        android:layout_margin="10dp"
+        app:srcCompat="@drawable/icons8_alarm_24" />
+</android.support.design.widget.CoordinatorLayout>

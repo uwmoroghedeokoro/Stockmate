@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.gradelogics.overstocked">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/stockfolio_ico"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/stockfolio_ico"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:allowBackup">
+        <activity
+            android:name=".activity_add_buy"
+            android:label="Add Buy Order"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity_sym_details"
+            android:label="Stock Details"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service android:name=".bg_service" />
+
+        <receiver
+            android:name=".PhoneUnlockReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.SCREEN_OFF" />
+                <action android:name="android.intent.action.SCREEN_ON" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".Alarm"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".live_stock_table"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activitysplash"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity_intro"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".alert_activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".privacy_activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".enter_passcode"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity_empty_portfolio"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity_setings"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".rootAnimator" />
+        <activity
+            android:name=".setting_backup"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NewMain"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity_splash_3"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".app_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".splash4"
+            android:theme="@style/AppTheme.NoActionBar"
+            ></activity>
+    </application>
+
+</manifest>

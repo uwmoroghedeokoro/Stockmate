@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:background="#0b7df2"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:src="@drawable/splash4"
+        android:layout_height="260dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="Market Analysis"
+        />
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"></View>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="12dp"
+        android:text="Get insights into the Top performing and Least performing stocks of the month. "
+        />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"></View>
+
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"></View>
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Let's GO!"
+        android:id="@+id/btn_go"
+        android:textColor="#FFF"
+        android:background="@drawable/curve_shape"
+        android:layout_height="wrap_content" />
+</LinearLayout>

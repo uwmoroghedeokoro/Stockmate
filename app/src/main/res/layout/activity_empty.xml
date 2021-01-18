@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/grnt"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:layout_marginTop="50sp"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lTop"
+
+            android:gravity="center_horizontal|center_vertical"
+            android:padding="0dp"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+
+                >
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"></View>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_horizontal"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="$0.00"
+                        android:textColor="#46B7F8"
+                        android:textSize="80sp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content" />
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"></View>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#333333"
+                        android:textSize="13dp"
+                        android:textStyle="bold"
+                        android:text="Your Portfolio is empty"
+                        android:layout_height="wrap_content" />
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"></View>
+                    <Button
+                        android:layout_width="match_parent"
+                        android:background="@drawable/btn_round_corners"
+                        android:text="ADD TO PORTFOLIO"
+                        android:id="@+id/add_btn"
+                        android:textColor="#fff"
+                        android:layout_height="wrap_content" />
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="15dp"></View>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Your portfolio details will be available as soon as you add your first stock purchase."
+                        android:textColor="#7E7E80"
+                        android:textSize="13dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

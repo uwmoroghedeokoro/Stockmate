@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:background="#fff"
+    android:layout_height="match_parent"
+    tools:context=".activity_portfolio">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#46B7F8"
+        android:textStyle="normal"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Portfolio Overview"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#9C9E9C"
+                android:textSize="15dp"
+                android:text="TOTAL INVESTED"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="normal"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/txt_total_invest"
+                android:textSize="18dp"
+                android:textColor="#333"
+                android:text="$0.00"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#9C9E9C"
+                android:textSize="15dp"
+                android:text="TOTAL RETURN"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="normal"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/txt_total_return"
+                android:textSize="18dp"
+                android:textColor="#333"
+                android:text="$0.00"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+
+        android:layout_height="450dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"></View>
+
+
+
+</LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#000"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:gravity="center_horizontal"
+        android:background="#282727"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="#fff"
+            android:textSize="14dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Notify me when net position is/greater"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"></View>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="100dp"
+                android:fontFamily="sans-serif-condensed"
+                android:id="@+id/alert_valz"
+                android:hint="0.00"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:gravity="right"
+                android:inputType="numberDecimal"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#fff"
+                android:text="%"
+                android:textSize="20dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:background="#282727"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/btn_sv"
+            android:text="Save"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

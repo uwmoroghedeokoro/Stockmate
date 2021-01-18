@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5F90FA"
+    android:padding="30dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".enter_passcode">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:src="@drawable/stockfolio_trans"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"></View>
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Privacy Code Required!"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"></View>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#fff"
+        android:textSize="13dp"
+        android:textStyle="normal"
+        android:text="Please enter your passcode to view your portfolio"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"></View>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:background="@drawable/border_white_bg"
+        android:inputType="number"
+        android:id="@+id/pass_code"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"></View>
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:text="Unlock"
+        android:id="@+id/pass_code_btn"
+        android:textColor="#fff"
+        android:background="@drawable/btn_round_corners"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

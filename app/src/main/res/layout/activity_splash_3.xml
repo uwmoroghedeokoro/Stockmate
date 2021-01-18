@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:background="#0b7df2"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:src="@drawable/splash2"
+        android:layout_height="290dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="Live JSE Data"
+        />
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"></View>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="12dp"
+        android:text="Keep up to speed with Live JSE stock prices. Add favorite stocks to your Watch List and set Alerts to notify you when a stock's price becomes of interest."
+        />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"></View>
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"></View>
+    <Button
+        android:layout_width="wrap_content"
+        android:text="NEXT"
+        android:id="@+id/btn_go"
+        android:textColor="#FFF"
+        android:background="@drawable/curve_shape"
+        android:layout_height="wrap_content" />
+</LinearLayout>

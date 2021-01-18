@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#000"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:gravity="center_horizontal"
+        android:background="#282727"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="#fff"
+            android:textSize="14dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Select the email account associated with your backup. All data will be overwritten with the restored portfolio."
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:background="#282727"
+
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:text="Choose Account"
+            android:id="@+id/btn_sel_account"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:background="#282727"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/btn_restoredb"
+            android:text="Restore"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

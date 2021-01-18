@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView android:layout_width="match_parent"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fadingEdgeLength="0dp"
+    android:fillViewport="true"
+    android:overScrollMode="always"
+    android:orientation="vertical"
+    android:scrollbars="none"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    tools:context=".fragment_analysis">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="4dp"
+            android:background="#ff4500"
+            android:layout_marginRight="5dp"
+            android:layout_height="50dp"></View>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:orientation="vertical"
+          android:layout_height="wrap_content">
+          <TextView
+              android:layout_width="wrap_content"
+              android:textSize="25dp"
+              android:textStyle="bold"
+              android:textColor="#000"
+              android:id="@+id/month_label"
+              android:text="Market Analysis"
+              android:layout_height="wrap_content" />
+          <TextView
+              android:layout_width="wrap_content"
+              android:textColor="#333"
+              android:textSize="12dp"
+              android:textStyle="italic"
+              android:text="Data reflects stock movement since start of month"
+              android:layout_height="wrap_content" />
+      </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="7dp"
+        android:background="#ddd"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="TOP 10 Market gainers"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="13dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"
+        ></View>
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:padding="4dp"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:fastScrollEnabled="true"
+        android:scrollbars="none"
+        app:fastScrollHorizontalThumbDrawable="@drawable/thumb_drawable"
+        app:fastScrollHorizontalTrackDrawable="@drawable/line_drawable"
+        app:fastScrollVerticalThumbDrawable="@drawable/thumb_drawable"
+        app:fastScrollVerticalTrackDrawable="@drawable/line_drawable"
+        android:id="@+id/list_gain"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="7dp"
+        android:background="#ddd"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="TOP 10 Market losers"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="13dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"
+        ></View>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="4dp"
+        android:layout_height="wrap_content">
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/list_lose"
+        app:fastScrollEnabled="true"
+        android:scrollbars="none"
+        app:fastScrollHorizontalThumbDrawable="@drawable/thumb_drawable"
+        app:fastScrollHorizontalTrackDrawable="@drawable/line_drawable"
+        app:fastScrollVerticalThumbDrawable="@drawable/thumb_drawable"
+        app:fastScrollVerticalTrackDrawable="@drawable/line_drawable"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+</LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

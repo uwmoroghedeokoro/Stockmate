@@ -1,0 +1,211 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:2:1-40:12
+MERGED from [com.android.support:design:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/0657743e0d039ef98a4de040fcb588ab/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/8a1c0c52f0637ec2085bdb73d9e24b1e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/e428f4b2ecde5978b64e75acf2e7f09f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.lecho:hellocharts-library:1.5.8] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/hellocharts-library-1.5.8.aar/613ba175eabdfb626502160929db9f63/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/fd40259923755d8706361712f8cedd4f/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/61e745ad7fe04646d918213a4ef857ab/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/8de6dbe87b767cfcdfd5ffd7fb6e486b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/2d4a03dd445861baa317520d7f04e503/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/e414ddaed4f1c29d213fd8de4fa7f227/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/0bdc74aa12accccc23fba289d1dd1b74/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/ac1953fd38e3bb032daf759d44fd64ab/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/67b10b732b8f987f3c6ae25db15cf50c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/eb0db4a2735fc4cbfcad13580b829205/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/51743f9077e487d96a08226f60d346ba/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/a69ffffc3c73b2093d9e7a5a8cbd6748/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/2a1e2f775b7bff74bce5a6ca5444dcae/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/53dd589ce4e3f8e7fc9a5add93c94792/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/6fdf902412f4ff40c10974dcdb3ca3c2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/4f17f36d106be607124bf45a83b44137/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/dd7ac6dd0dafb0c09659620e3cb9197e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/e6e14a4dd58b4f7d26b4e9f512e7b3ff/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/cb8f65ef590ed082eb7b9e5b2d593c53/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/7f57dd507ae3d75b41451bcb0112569d/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/37659045aa75839bff2eff338024f671/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/1346854190fa29ec0ae9583bd652e4cc/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/68e04e48f5bc51932f15d0ead18f5874/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/cf484854637db0ef872b2c5238d6d296/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/3aa015e5d9ef5f3e20eff4295d010bc9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/059c7fcfce007064df06fbe5648ed1f3/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/07b1f6a96ebada0b18893a735fc9663d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/4b3a44f0e7feb82ac52492e77830874c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/f1549bef8bdc51a77b459004fe747de4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/369176cb52d466d18b6ad15dc26da906/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c8309ddcfdb3db282307ce9814b8c2fe/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:2:1-40:12
+	package
+		ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:3:5-55
+		INJECTED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml
+		ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:2:1-40:12
+		INJECTED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml
+		ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:2:1-40:12
+		INJECTED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:7:5-38:19
+MERGED from [com.android.support:design:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/0657743e0d039ef98a4de040fcb588ab/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/0657743e0d039ef98a4de040fcb588ab/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/fd40259923755d8706361712f8cedd4f/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/fd40259923755d8706361712f8cedd4f/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/cb8f65ef590ed082eb7b9e5b2d593c53/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/cb8f65ef590ed082eb7b9e5b2d593c53/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/7f57dd507ae3d75b41451bcb0112569d/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/7f57dd507ae3d75b41451bcb0112569d/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/cb8f65ef590ed082eb7b9e5b2d593c53/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:13:9-40
+activity#com.gradelogics.overstocked.MainActivity
+ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:14:9-23:20
+	android:label
+		ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:16:13-45
+	android:theme
+		ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:17:13-56
+	android:name
+		ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:15:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:21:27-74
+activity#com.gradelogics.overstocked.activity_add_buy
+ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:24:9-27:59
+	android:label
+		ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:26:13-42
+	android:theme
+		ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:27:13-56
+	android:name
+		ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:25:13-45
+activity#com.gradelogics.overstocked.activity_sym_details
+ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:28:9-31:59
+	android:label
+		ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:30:13-42
+	android:theme
+		ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:31:13-56
+	android:name
+		ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:29:13-49
+service#com.gradelogics.overstocked.bg_service
+ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:33:9-47
+	android:name
+		ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:33:18-44
+activity#com.gradelogics.overstocked.live_stock_table
+ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:35:9-37:25
+	android:theme
+		ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:36:13-56
+	android:name
+		ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml:35:19-51
+uses-sdk
+INJECTED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml
+INJECTED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/0657743e0d039ef98a4de040fcb588ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/0657743e0d039ef98a4de040fcb588ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/8a1c0c52f0637ec2085bdb73d9e24b1e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/8a1c0c52f0637ec2085bdb73d9e24b1e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/e428f4b2ecde5978b64e75acf2e7f09f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/e428f4b2ecde5978b64e75acf2e7f09f/AndroidManifest.xml:20:5-44
+MERGED from [com.github.lecho:hellocharts-library:1.5.8] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/hellocharts-library-1.5.8.aar/613ba175eabdfb626502160929db9f63/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lecho:hellocharts-library:1.5.8] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/hellocharts-library-1.5.8.aar/613ba175eabdfb626502160929db9f63/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/fd40259923755d8706361712f8cedd4f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/fd40259923755d8706361712f8cedd4f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/61e745ad7fe04646d918213a4ef857ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/61e745ad7fe04646d918213a4ef857ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/8de6dbe87b767cfcdfd5ffd7fb6e486b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/8de6dbe87b767cfcdfd5ffd7fb6e486b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/2d4a03dd445861baa317520d7f04e503/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/2d4a03dd445861baa317520d7f04e503/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/e414ddaed4f1c29d213fd8de4fa7f227/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/e414ddaed4f1c29d213fd8de4fa7f227/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/0bdc74aa12accccc23fba289d1dd1b74/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/0bdc74aa12accccc23fba289d1dd1b74/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/ac1953fd38e3bb032daf759d44fd64ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/ac1953fd38e3bb032daf759d44fd64ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/67b10b732b8f987f3c6ae25db15cf50c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/67b10b732b8f987f3c6ae25db15cf50c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/eb0db4a2735fc4cbfcad13580b829205/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/eb0db4a2735fc4cbfcad13580b829205/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/51743f9077e487d96a08226f60d346ba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/51743f9077e487d96a08226f60d346ba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/a69ffffc3c73b2093d9e7a5a8cbd6748/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/a69ffffc3c73b2093d9e7a5a8cbd6748/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/2a1e2f775b7bff74bce5a6ca5444dcae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/2a1e2f775b7bff74bce5a6ca5444dcae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/53dd589ce4e3f8e7fc9a5add93c94792/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/53dd589ce4e3f8e7fc9a5add93c94792/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/6fdf902412f4ff40c10974dcdb3ca3c2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/6fdf902412f4ff40c10974dcdb3ca3c2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/4f17f36d106be607124bf45a83b44137/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/4f17f36d106be607124bf45a83b44137/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/dd7ac6dd0dafb0c09659620e3cb9197e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/dd7ac6dd0dafb0c09659620e3cb9197e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/e6e14a4dd58b4f7d26b4e9f512e7b3ff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/e6e14a4dd58b4f7d26b4e9f512e7b3ff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/cb8f65ef590ed082eb7b9e5b2d593c53/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/cb8f65ef590ed082eb7b9e5b2d593c53/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/7f57dd507ae3d75b41451bcb0112569d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/7f57dd507ae3d75b41451bcb0112569d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/37659045aa75839bff2eff338024f671/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/37659045aa75839bff2eff338024f671/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/1346854190fa29ec0ae9583bd652e4cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/1346854190fa29ec0ae9583bd652e4cc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/68e04e48f5bc51932f15d0ead18f5874/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/68e04e48f5bc51932f15d0ead18f5874/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/cf484854637db0ef872b2c5238d6d296/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/cf484854637db0ef872b2c5238d6d296/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/3aa015e5d9ef5f3e20eff4295d010bc9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/3aa015e5d9ef5f3e20eff4295d010bc9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/059c7fcfce007064df06fbe5648ed1f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/059c7fcfce007064df06fbe5648ed1f3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/07b1f6a96ebada0b18893a735fc9663d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/07b1f6a96ebada0b18893a735fc9663d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/4b3a44f0e7feb82ac52492e77830874c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/4b3a44f0e7feb82ac52492e77830874c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/f1549bef8bdc51a77b459004fe747de4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/f1549bef8bdc51a77b459004fe747de4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/369176cb52d466d18b6ad15dc26da906/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/369176cb52d466d18b6ad15dc26da906/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c8309ddcfdb3db282307ce9814b8c2fe/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/uwmoroghedeokoro/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c8309ddcfdb3db282307ce9814b8c2fe/AndroidManifest.xml:20:5-44
+INJECTED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml
+INJECTED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml
+		ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml
+		ADDED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/uwmoroghedeokoro/Documents/Android Projects/OverStocked/app/src/main/AndroidManifest.xml

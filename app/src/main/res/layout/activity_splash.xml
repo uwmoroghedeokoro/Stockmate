@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:background="#0b7df2"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent">
+
+
+     <ImageView
+         android:layout_width="170dp"
+         android:src="@drawable/stockmate_concept_ico"
+         android:layout_height="170dp" />
+
+     <View
+         android:layout_width="match_parent"
+         android:layout_height="30dp"></View>
+     <TextView
+         android:layout_width="wrap_content"
+         android:text="Stockmate"
+         android:textColor="#fff"
+         android:textSize="37dp"
+         android:fontFamily="sans-serif-condensed"
+         android:layout_height="wrap_content" />
+     <TextView
+         android:layout_width="wrap_content"
+         android:text="The Jamaica Stock Portfolio App"
+         android:textColor="#fff"
+         android:textSize="16dp"
+         android:textStyle="bold"
+         android:fontFamily="sans-serif-condensed"
+         android:layout_height="wrap_content" />
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:padding="30dp"
+         android:layout_height="wrap_content">
+          <View
+              android:layout_width="match_parent"
+              android:padding="20dp"
+              android:background="#FFF"
+              android:layout_height="0.5dp"></View>
+
+     </LinearLayout>
+
+<View
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"></View>
+
+     <LinearLayout
+         android:layout_width="wrap_content"
+
+         android:layout_height="wrap_content">
+          <Button
+              android:layout_width="wrap_content"
+              android:text="LET'S GO!"
+              android:id="@+id/btn_go"
+              android:textColor="#FFF"
+              android:background="@drawable/curve_shape"
+              android:layout_height="wrap_content" />
+     </LinearLayout>
+</LinearLayout>

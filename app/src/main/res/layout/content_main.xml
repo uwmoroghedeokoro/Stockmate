@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout android:id="@+id/pullToRefresh"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:shimmer="http://schemas.android.com/tools">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdgeLength="0dp"
+
+        android:overScrollMode="always"
+        android:scrollbars="none" >
+
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+
+
+     >
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/lTop"
+         android:background="#fff"
+         android:orientation="vertical"
+         android:gravity="center_horizontal|center_vertical"
+        android:padding="0dp"
+
+         >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:id="@+id/portfolio_container"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="7dp"
+            android:background="#068EB9"
+            android:layout_marginRight="5dp"
+            android:layout_height="match_parent"></View>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textColor="#ABABAB"
+                    android:padding="0dp"
+                    android:textSize="11dp"
+                    android:textStyle="bold"
+                    android:text="Portfolio Value"
+                    android:layout_marginTop="0dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textColor="#ddd"
+                    android:padding="0dp"
+                    android:textSize="11dp"
+                    android:textStyle="bold"
+                    android:text="|"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textSize="10dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:id="@+id/txt_last_update"
+                    android:textColor="#ABABAB"
+                    android:text="12/12/2019"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_portfolio_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:paddingBottom="0dp"
+                android:text="$0.00"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="normal" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="12dp"
+                    android:text="OVR GAIN: "
+
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textColor="#333"
+                    android:textSize="16dp"
+                    android:layout_marginRight="0dp"
+                    android:padding="0dp"
+                    android:id="@+id/txt_position_value"
+                    android:text="-----------"
+                    android:textStyle="normal"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="12dp"
+                    android:text="TODAY: "
+
+                    android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="-----------"
+                android:id="@+id/txt_daily_change"
+                android:textSize="14sp"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="80dp"
+            android:id="@+id/circle_perc"
+            android:orientation="vertical"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@drawable/green_circle"
+            android:layout_height="80dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:id="@+id/txt_position_perc"
+                android:text="------"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:padding="0dp"
+             android:orientation="vertical"
+             android:id="@+id/ly_portfolio"
+             android:background="#fff"
+             android:layout_height="match_parent">
+
+
+
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:gravity="left"
+                 android:background="#fff"
+                 android:layout_height="wrap_content">
+
+
+                 <com.github.mikephil.charting.charts.LineChart
+                     android:layout_width="match_parent"
+                     android:id="@+id/lineC"
+                     android:visibility="visible"
+                     android:layout_height="80dp" />
+
+
+             </LinearLayout>
+
+
+
+
+
+
+         </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="4dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="7dp"
+                android:background="@drawable/curve_shape_gradient"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:textColor="#F8F6FB"
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:text="Best Performing"
+                        android:fontFamily="sans-serif-condensed"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:textColor="#F8F6FB"
+                        android:textSize="16dp"
+                        android:gravity="right"
+                        android:id="@+id/txt_best_perform_sym"
+                        android:layout_weight="0.5"
+                        android:text="---"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-condensed"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:textColor="#F8F6FB"
+                        android:textSize="16dp"
+                        android:gravity="right"
+                        android:layout_weight="0.5"
+                        android:text="---"
+                        android:id="@+id/txt_best_perform_sym_perc"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-condensed"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:textColor="#F8F6FB"
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:text="Least Performing"
+                        android:fontFamily="sans-serif-condensed"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:textColor="#F8F6FB"
+                        android:textSize="16dp"
+                        android:gravity="right"
+                        android:id="@+id/txt_least_perform_sym"
+                        android:layout_weight="0.5"
+                        android:text="---"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-condensed"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:textColor="#F8F6FB"
+                        android:textSize="16dp"
+                        android:gravity="right"
+                        android:layout_weight="0.5"
+                        android:text="---"
+                        android:id="@+id/txt_least_perform_sym_perc"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-condensed"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+
+         android:id="@+id/lBottom"
+         >
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:paddingLeft="10dp"
+             android:paddingTop="5dp"
+             android:gravity="center_vertical"
+             android:paddingBottom="5dp"
+             android:layout_height="wrap_content">
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:textSize="15dp"
+                 android:textColor="#333"
+                 android:textStyle="bold"
+                 android:text="My Investments"
+                 android:layout_height="wrap_content" />
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:gravity="right|center_vertical"
+                 android:paddingRight="10dp"
+                 android:id="@+id/btn_filter"
+                 android:layout_height="match_parent">
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:padding="3dp"
+                     android:id="@+id/filter_lay"
+                     android:background="@drawable/round_edge_grey"
+                     android:layout_height="match_parent">
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:text="Display Options"
+                         android:textSize="12dp"
+                         android:selectAllOnFocus="true"
+                         android:linksClickable="true"
+                         android:autoLink="all"
+                            android:id="@+id/filter_text"
+                         android:layout_height="wrap_content" />
+                 </LinearLayout>
+
+             </LinearLayout>
+
+         </LinearLayout>
+
+
+
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/listview_ticker"
+            android:layout_height="wrap_content"
+            app:fastScrollEnabled="true"
+            android:scrollbars="none"
+            app:fastScrollHorizontalThumbDrawable="@drawable/thumb_drawable"
+            app:fastScrollHorizontalTrackDrawable="@drawable/line_drawable"
+            app:fastScrollVerticalThumbDrawable="@drawable/thumb_drawable"
+            app:fastScrollVerticalTrackDrawable="@drawable/line_drawable"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="50dp"
+            android:paddingBottom="50dp"
+            ></android.support.v7.widget.RecyclerView>
+
+
+     </LinearLayout>
+
+ </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.v4.widget.SwipeRefreshLayout>

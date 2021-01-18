@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_sym_details">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/AppTheme.AppBarOverlay">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@drawable/grnt"
+                    app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+            </android.support.design.widget.AppBarLayout>
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:fillViewport="false"
+                android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="25dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#333"
+                        android:id="@+id/txt_sym_name"
+                        android:textStyle="bold"
+                        android:textSize="33dp"
+                        android:layout_marginTop="1dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text=""
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#333"
+                        android:id="@+id/txt_sym_price"
+                        android:textStyle="bold"
+                        android:textSize="22dp"
+                        android:layout_marginTop="1dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="-"
+                        android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Tap to simulate"
+                            android:id="@+id/txt_sim"
+                            android:padding="7dp"
+                            android:textSize="11dp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="right"
+
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Chart Display Values"
+                            android:textSize="10dp"
+                            android:padding="5dp"
+                            android:background="@drawable/btn_round_corners"
+                            android:textColor="#fff"
+                            android:selectAllOnFocus="false"
+                            android:linksClickable="false"
+                            android:autoLink="all"
+                            android:id="@+id/btn_filter"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <com.github.mikephil.charting.charts.LineChart
+                        android:layout_width="match_parent"
+                        android:id="@+id/lineC"
+
+                        android:layout_height="150dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#333"
+                        android:textStyle="bold"
+                        android:textSize="23dp"
+                        android:layout_marginTop="40dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="Your Position"
+                        android:layout_height="wrap_content" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="15dp"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:textColor="#A7A5A5"
+                                android:textSize="15dp"
+                                android:text="SHARES"
+                                android:fontFamily="sans-serif-condensed"
+                                android:textStyle="normal"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:id="@+id/txt_shares"
+                                android:textSize="22dp"
+                                android:textColor="#333"
+                                android:text="15"
+                                android:fontFamily="sans-serif-condensed"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:textColor="#A7A5A5"
+                                android:textSize="15dp"
+                                android:text="EQUITY"
+                                android:fontFamily="sans-serif-condensed"
+                                android:textStyle="normal"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:id="@+id/txt_equity"
+                                android:textSize="22dp"
+                                android:textColor="#333"
+                                android:text="$0.00"
+                                android:fontFamily="sans-serif-condensed"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="15dp"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:textColor="#A7A5A5"
+                                android:textSize="15dp"
+                                android:text="COST AVG"
+                                android:fontFamily="sans-serif-condensed"
+                                android:textStyle="normal"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:id="@+id/txt_avg_cost"
+                                android:textSize="22dp"
+                                android:textColor="#333"
+                                android:text="$0.00"
+                                android:fontFamily="sans-serif-condensed"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:textColor="#A7A5A5"
+                                android:textSize="15dp"
+                                android:text="DIVERSITY"
+                                android:fontFamily="sans-serif-condensed"
+                                android:textStyle="normal"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:id="@+id/txt_diversity"
+                                android:textSize="22dp"
+                                android:textColor="#333"
+                                android:text="$0.00"
+                                android:fontFamily="sans-serif-condensed"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="15dp"></View>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:textColor="#A7A5A5"
+                                android:textSize="15dp"
+                                android:text="TOTAL INVESTED"
+                                android:fontFamily="sans-serif-condensed"
+                                android:textStyle="normal"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:id="@+id/txt_total_invest"
+                                android:textSize="18dp"
+                                android:textColor="#333"
+                                android:text="$0.00"
+                                android:fontFamily="sans-serif-condensed"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:textColor="#A7A5A5"
+                                android:textSize="15dp"
+                                android:text="TOTAL RETURN"
+                                android:fontFamily="sans-serif-condensed"
+                                android:textStyle="normal"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:id="@+id/txt_total_return"
+                                android:textSize="18dp"
+                                android:textColor="#333"
+                                android:text="$0.00"
+                                android:fontFamily="sans-serif-condensed"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"></View>
+
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:gravity="center_horizontal"
+                     android:layout_height="wrap_content">
+                     <LinearLayout
+                         android:layout_width="0dp"
+                         android:layout_weight="1"
+                         android:gravity="center_horizontal"
+                         android:layout_height="wrap_content">
+                         <Button
+                             android:layout_width="wrap_content"
+                             android:text="Sell Shares"
+                             android:padding="0dp"
+                             android:id="@+id/btn_sell_shares"
+                             android:layout_gravity="center_horizontal"
+                             android:textColor="#ffffff"
+                             android:fontFamily="sans-serif-condensed"
+                             android:background="@drawable/btn_round_corners"
+                             android:layout_height="wrap_content" />
+                     </LinearLayout>
+
+                 </LinearLayout>
+
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"></View>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#333"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="Recent Buy Orders"
+                        android:layout_height="wrap_content" />
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:padding="4dp"
+                        android:layout_height="wrap_content">
+                        <android.support.v7.widget.RecyclerView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:fastScrollEnabled="true"
+                            android:scrollbars="none"
+                            app:fastScrollHorizontalThumbDrawable="@drawable/thumb_drawable"
+                            app:fastScrollHorizontalTrackDrawable="@drawable/line_drawable"
+                            app:fastScrollVerticalThumbDrawable="@drawable/thumb_drawable"
+                            app:fastScrollVerticalTrackDrawable="@drawable/line_drawable"
+                            android:id="@+id/list_orders"></android.support.v7.widget.RecyclerView>
+
+                    </LinearLayout>
+
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="15dp"></View>
+                    <ListView
+                        android:layout_width="match_parent"
+                        android:id="@+id/lv_buy_order"
+                        android:layout_height="400dp">
+
+                    </ListView>
+
+                </LinearLayout>
+            </LinearLayout>
+            </android.support.v4.widget.NestedScrollView>
+
+        </LinearLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>
